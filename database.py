@@ -1,7 +1,7 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 
 # Local MongoDB connection URL
-MONGO_DETAILS = "mongodb://localhost:27017"
+MONGO_DETAILS = "mongodb+srv://anshu:anshu1234@cluster0.xwdubht.mongodb.net/?appName=Cluster0"
 
 # Client aur database setup karein
 client = AsyncIOMotorClient(MONGO_DETAILS)
